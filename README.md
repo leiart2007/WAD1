@@ -6,6 +6,6 @@ A simple JavaScript score tracker built to demonstrate core web development conc
 
 - `index.html`: Semantic HTML layout (`<main>`, `<output>`, `<section>`) holding the score display and action buttons.
 - `script.js`: Linked via defer script tag in head; contains tracker state logic and event handling.
-- `style.css`: *(Optional)* Provides basic styling for the UI.
+- `style.css`: Provides basic styling for the UI.
 - `.gitignore`: Configured to ignore local environment variables like `.env`.
 - `.env`: Contains sensitive environment variables ignored by Git.
