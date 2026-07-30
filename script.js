@@ -8,7 +8,6 @@ const resetBtn = document.getElementById('reset-btn');
 function updateDisplay() {
     scoreDisplay.textContent = score;
 
-    // Decision Control: dynamically change display colors based on score value
     if (score > 0) {
         scoreDisplay.style.color = "green";
     } else if (score < 0) {
