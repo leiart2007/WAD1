@@ -12,13 +12,20 @@
 <body>
     <main class="container">
         <h1>Score Tracker</h1>
-        <output id="score-display">0</output>
+
+        <section class="score-display">
+            Current Score: <span id="score-display">0</span>
+        </section>
 
         <section class="button-group">
-            <button id="increase-btn">Increase</button>
-            <button id="decrease-btn">Decrease</button>
-            <button id="reset-btn">Reset</button>
+            <button class="pink-btn" id="increase-btn">Add Point</button>
+            <button class="pink-btn" id="decrease-btn">Subtract</button>
+            <button class="pink-outline-btn" id="reset-btn">Reset</button>
         </section>
+
+        <footer class="ui-message">
+            "Keep going to raise your score!"
+        </footer>
     </main>
 </body>
 
